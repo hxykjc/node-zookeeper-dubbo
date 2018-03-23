@@ -1,6 +1,6 @@
 {
-  "name": "node-zookeeper-dubbo",
-  "version": "2.2.2",
+  "name": "@vdian/node-zookeeper-dubbo",
+  "version": "0.0.1",
   "description": "node connect dubbo by default protocol in zookeeper",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/p412726700/node-zookeeper-dubbo"
+    "url": "https://github.com/hxykjc/node-zookeeper-dubbo"
   },
-  "author": "pzc <412726700@qq.com>",
   "license": "ISC",
   "dependencies": {
     "hessian.js": "^2.1.8",
