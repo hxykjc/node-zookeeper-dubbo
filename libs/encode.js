@@ -1,6 +1,3 @@
-/**
- * Created by panzhichao on 16/8/18.
- */
 'use strict';
 const Encoder     = require('hessian.js').EncoderV2;
 const DEFAULT_LEN  = 8388608; // 8 * 1024 * 1024 default body max length
@@ -77,7 +74,7 @@ Encode.prototype._argsType = function (args) {
 }
 
 Encode.prototype._attachments = function () {
-  const implicitArgs = {interface: this._opt._interface, path: this._opt._interface, timeout: this._opt._timeout}
+  const implicitArgs = {interface: this._opt._interface, path: this._opt._path, timeout: this._opt._timeout}
   this._opt._version && (implicitArgs.version = this._opt._version)
   this._opt._group && (implicitArgs.group = this._opt._group);
 
